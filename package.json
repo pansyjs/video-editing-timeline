@@ -1,0 +1,8 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@walrus/pansy": "^0.3.0",
+    "lerna": "^3.18.4"
+  }
+}

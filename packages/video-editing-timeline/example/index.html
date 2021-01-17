@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video-editing-timeline</title>
+    <script src="../dist/index.umd.js"></script>
+    <style>
+        html,
+        body {
+            padding: 20px;
+            margin: 0;
+        }
+
+        .title {
+            text-align: center;
+            padding: 30px 0;
+            font-size: 20px;
+        }
+
+        .canvas-wrapper {
+            background-color: #111;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        视频编辑时间线例子
+    </div>
+    <div class="canvas-wrapper">
+        <canvas id="canvas" width="3000" height="60"></canvas>
+    </div>
+
+    <script>
+        var instance = new VideoEditingTimeline({
+            el: "#canvas",
+            canvasWidth: 5000,
+            canvasHeight: 50,
+            minimumScale: 10, // 一个小刻度长度(单位px)
+            minimumScaleTime: 1, // 一个小刻度代表时间（单位秒）
+        });
+
+        debugger
+    </script>
+</body>
+
+</html>

@@ -31,7 +31,7 @@ interface DrawLineOptions {
 
 
 const defaultConfig = {
-    mode: "top",
+    mode: "top",    // top 表示从顶部向下画线，bottom,表示从底部向上画线
     canvasWidth: 400, // canvas长度
     canvasHeight: 50, // canvas高度
     minimumScale: 10, // 一个小刻度长度(单位px)
@@ -139,7 +139,7 @@ VideoEditingTimeline.prototype.renderTimeLine = function () {
             if (mode === "top") {
                 ctx.fillText(formatSeconds(showTime), i + offestLeft + 10, 22);
             } else {
-                const text = i === 0 ? 0 : formatSeconds(showTime);
+                const text = formatSeconds(showTime);
                 // 文本宽度
                 const textWidth = ctx.measureText(text).width;
                 ctx.fillText(text, i + offestLeft - textWidth / 2, 24);

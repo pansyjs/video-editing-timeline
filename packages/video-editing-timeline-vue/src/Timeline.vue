@@ -8,8 +8,11 @@ import VideoEditingTimeline from 'video-editing-timeline';
 export default {
   name: 'VideoEditingTimeline',
   props: {
-    config: function(){
-        return {}
+    config:{
+        type: Object,
+        default: function () {
+            return {  }
+        }
     }
   },
   mounted() {

@@ -1,6 +1,6 @@
 {
   "name": "video-editing-timeline-vue",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Timeline for video editing",
   "keywords": [
     "vue",
@@ -38,7 +38,7 @@
     "url": "https://github.com/chenguzhen87/video-editing-timeline/issues"
   },
   "dependencies": {
-    "video-editing-timeline": "^0.1.1"
+    "video-editing-timeline": "^0.1.2"
   },
   "devDependencies": {
     "rollup-plugin-vue": "^5.1.1",

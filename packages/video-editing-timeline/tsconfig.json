@@ -1,6 +1,6 @@
 {
   "extends": "../../tsconfig.json",
-  "inlib/*": [
+  "include": [
     "src/*"
   ]
 }

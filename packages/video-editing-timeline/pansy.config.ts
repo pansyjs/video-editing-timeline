@@ -7,7 +7,7 @@ const config: Config = {
       'esm',
       'umd'
     ],
-    moduleName: 'VideoEditingTimeline'
+    moduleName: 'gesturePassword'
   }
 }
 

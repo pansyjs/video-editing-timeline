@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     instance() {
-      return new VideoEditingTimeline({ ...this.config, el: this.refs.canvas });
+      return new VideoEditingTimeline({ ...this.config, el: this.$refs.canvas });
     }
   }
 };

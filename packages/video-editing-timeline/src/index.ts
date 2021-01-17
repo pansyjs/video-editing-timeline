@@ -8,7 +8,6 @@ interface VideoEditingTimeLineOptions {
     el: string | HTMLCanvasElement,
     canvasWidth?: number,
     canvasHeight?: number,
-    canvasId?: string,
     minimumScale?: number,
     minimumScaleTime?: number,
     minimumScalesInLongScale?: number,

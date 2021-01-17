@@ -1,6 +1,6 @@
 {
-  "name": "video-editing-timeline",
-  "version": "0.1.1",
+  "name": "video-editing-timeline-vue",
+  "version": "0.1.0",
   "description": "Timeline for video editing",
   "keywords": [
     "video",
@@ -18,8 +18,7 @@
   "jsdelivr": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "directories": {
-    "lib": "dist",
-    "example": "example"
+    "lib": "dist"
   },
   "files": [
     "dist"
@@ -37,5 +36,11 @@
   "bugs": {
     "url": "https://github.com/chenguzhen87/video-editing-timeline/issues"
   },
-  "gitHead": "eceec3b5faddab28dbcdc81e384e34f6dde63c6d"
+  "dependencies": {
+    "video-editing-timeline": "^0.1.1"
+  },
+  "devDependencies": {
+    "rollup-plugin-vue": "^5.1.1",
+    "vue-template-compiler": "^2.6.12"
+  }
 }

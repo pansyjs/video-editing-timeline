@@ -4,7 +4,7 @@
           视频编辑时间线例子
       </div>
        <div class="canvas-wrapper">
-          <VideoEditingTimeline :config="config" />
+          <VideoEditingTimeline ref="timeline" :config="config" />
        </div>
   </div>
 </template>
@@ -26,6 +26,13 @@ export default {
             minimumScaleTime: 1, // 一个小刻度代表时间（单位秒）
        }
     }
+  },
+  mounted() {
+    const timeline = this.$refs.timeline;
+    setTimeout(() => {
+      this.config.minimumScale = 5;
+    }, 2000);
+
   },
 }
 </script>

@@ -1,0 +1,41 @@
+{
+  "name": "video-editing-timeline-react",
+  "version": "0.1.8",
+  "description": "Timeline for video editing",
+  "keywords": [
+    "react",
+    "video",
+    "timeline",
+    "video-editing",
+    "video-clip",
+    "video-cut"
+  ],
+  "author": "chenguzhen87 <546369005@qq.com>",
+  "homepage": "https://github.com/chenguzhen87/video-editing-timeline#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "jsdelivr": "dist/index.umd.js",
+  "directories": {
+    "lib": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenguzhen87/video-editing-timeline.git"
+  },
+  "scripts": {
+    "build": "node ../../node_modules/@walrus/pansy/dist/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/chenguzhen87/video-editing-timeline/issues"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.0",
+    "react": "^17.0.1",
+    "video-editing-timeline": "^0.1.8"
+  }
+}

@@ -3,7 +3,7 @@
  * 视频剪辑时间线
  */
 
-interface VideoEditingTimeLineOptions {
+export interface VideoEditingTimeLineOptions {
     mode?: string,
     el: string | HTMLCanvasElement,
     canvasWidth?: number,

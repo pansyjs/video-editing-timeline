@@ -19,13 +19,18 @@ export default {
   mounted() {
     this.instance();
   },
-  updated() {
-    this.instance();
-  },
   methods: {
     instance() {
       this.timelineInstance = new VideoEditingTimeline({ ...this.config, el: this.$refs.canvas });
     }
+  },
+  watch:{
+    config: {
+      handler: function () { 
+        this.instance();
+      },
+      deep: true
+    },
   }
 };
 </script>

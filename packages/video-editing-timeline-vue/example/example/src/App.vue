@@ -29,8 +29,9 @@ export default {
   },
   mounted() {
     const timeline = this.$refs.timeline;
+    console.log(timeline);
     setTimeout(() => {
-      this.config.minimumScale = 5;
+      this.config.minimumScaleTime = 5;
     }, 2000);
 
   },

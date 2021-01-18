@@ -60,6 +60,7 @@ function VideoEditingTimeline(config: VideoEditingTimeLineOptions) {
     el.height = this.config.canvasHeight;
     this.ctx = el.getContext("2d");
     this.renderTimeLine();
+    this.calc();
 
 }
 
@@ -165,6 +166,9 @@ VideoEditingTimeline.prototype.calc = function () {
     const ticks = Math.floor(canvasWidth / minimumScale); // 总刻度数
     const duration = this.ticks * minimumScaleTime; // 时间线表示总时长
     const scale = minimumScaleTime / minimumScale; // 1px 表示时间
+    this.ticks = ticks;
+    this.duration = duration;
+    this.scale = scale;
     return { ticks: ticks, duration: duration, scale: scale };
 };
 

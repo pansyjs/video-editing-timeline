@@ -15,6 +15,7 @@ export default {
         }
     }
   },
+  timelineInstance: null,
   mounted() {
     this.instance();
   },
@@ -23,7 +24,7 @@ export default {
   },
   methods: {
     instance() {
-      return new VideoEditingTimeline({ ...this.config, el: this.$refs.canvas });
+      this.timelineInstance = new VideoEditingTimeline({ ...this.config, el: this.$refs.canvas });
     }
   }
 };

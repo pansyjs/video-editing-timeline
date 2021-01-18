@@ -9,10 +9,10 @@ const config: Config = {
     ],
     moduleName: 'VideoEditingTimeline'
   },
-  // externals: [
-  //   ...Object.keys(require('./package').dependencies),
-  //   ...Object.keys(require('./package').peerDependencies)
-  // ],
+  externals: [
+    ...Object.keys(require('./package').dependencies),
+    ...Object.keys(require('./package').peerDependencies)
+  ],
   disableTypeCheck: true
 }
 

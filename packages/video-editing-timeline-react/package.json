@@ -1,6 +1,6 @@
 {
   "name": "video-editing-timeline-react",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Timeline for video editing",
   "keywords": [
     "react",
@@ -33,9 +33,12 @@
   "bugs": {
     "url": "https://github.com/chenguzhen87/video-editing-timeline/issues"
   },
+  "peerDependencies": {
+    "react": "^16.8.5"
+  },
   "dependencies": {
-    "@types/react": "^17.0.0",
-    "react": "^17.0.1",
-    "video-editing-timeline": "^0.1.8"
+    "@types/react": "^16.9.11",
+    "react": "^16.12.0",
+    "video-editing-timeline": "^0.1.9"
   }
 }

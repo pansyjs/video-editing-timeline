@@ -5,6 +5,17 @@
 
 <img height="200" src="./packages/video-editing-timeline/example/1610880717.png"></img>
 
+
+> The video-editing-timeline repo contains three packages: video-editing-timeline (native version), video-editing-timeline-react (react version), and video-editing-timelinevue (vue version). You can install the corresponding version as required
+
+## Features
+
+- 💻 使用 TypeScript 编写，提供完善的类型定义
+- 🚀 小巧，不到10K大小，Gzip压缩后不到3K
+- 📦 提供`cjs`、`es`、`umd`三种格式
+- 🎉 提供`Vue`、`React`组件包
+
+
 ## install
 
 ```
